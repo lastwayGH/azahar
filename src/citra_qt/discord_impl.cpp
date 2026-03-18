@@ -51,5 +51,6 @@ void DiscordImpl::Update() {
     }
     presence.startTimestamp = start_time;
     Discord_UpdatePresence(&presence);
+    Discord_RunCallbacks();
 }
 } // namespace DiscordRPC
