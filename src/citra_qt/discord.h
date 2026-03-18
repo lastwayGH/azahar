@@ -20,6 +20,7 @@ public:
 
     void Pause() override {}
     void Update() override {}
+Discord_RunCallbacks();
 };
 
 } // namespace DiscordRPC
